@@ -1,5 +1,9 @@
 int main(void)
 {
-	printf("%s", "hello world!");
+	int a = 1;
+	printf("a=%d", a);
+	if(a>0)
+		printf("a large then zero");
+	printf("%s", "hello world!\r\n");
 	return 0;
 }
