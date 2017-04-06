@@ -1,6 +1,6 @@
 int main(void)
 {
-	int a = 1;
+	int a = 3;
 	printf("a=%d", a);
 	if(a>0)
 		printf("a large then zero");
